@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CabeberaComponent } from './cabebera/cabebera.component';
+import { RedesComponent } from './redes/redes.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CabeberaComponent,
+    RedesComponent
   ],
   imports: [
     BrowserModule,

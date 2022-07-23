@@ -1,0 +1,10 @@
+<ul class="list-group list-group-horizontal justify-content-center mb-5">
+ 	
+  <!-- Utilice la directiva *ngFor para iterar el arreglo redes -->
+  <li class="list-group-item border-0" *ngFor="let red of redes">
+    <a href={{red.href}} class="text-primary">
+      <img width="25" src={{red.src}} alt={{red.alt}}>
+    </a>
+  </li>
+
+</ul>
